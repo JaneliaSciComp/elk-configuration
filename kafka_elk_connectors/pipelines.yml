@@ -38,5 +38,7 @@
   path.config: "pipeline/merge_review_kafka.conf"
 - pipeline.id: nptest
   path.config: "pipeline/neuprint_metrics_kafka.conf"
+- pipeline.id: neuprint_daily_stats
+  path.config: "pipeline/neuprint_daily_stats.conf"
 - pipeline.id: erika_added_todos1
   path.config: "pipeline/erika_added_todos1.conf"
