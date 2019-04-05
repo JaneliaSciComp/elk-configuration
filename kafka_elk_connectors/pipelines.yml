@@ -2,14 +2,14 @@
   path.config: "pipeline/emdata1_8100_dvid_activity_kafka.conf"
 - pipeline.id: emdata1_8400
   path.config: "pipeline/emdata1_8400_dvid_activity_kafka.conf"
-- pipeline.id: emdata1_8450
-  path.config: "pipeline/emdata1_8450_dvid_activity_kafka.conf"
 - pipeline.id: emdata1_8900
   path.config: "pipeline/emdata1_8900_dvid_activity_kafka.conf"
 - pipeline.id: emdata2_7900
   path.config: "pipeline/emdata2_7900_dvid_activity_kafka.conf"
 - pipeline.id: emdata3_8400
   path.config: "pipeline/emdata3_8400_dvid_activity_kafka.conf"
+- pipeline.id: emdata3_8450
+  path.config: "pipeline/emdata3_8450_dvid_activity_kafka.conf"
 - pipeline.id: emdata3_8900
   path.config: "pipeline/emdata3_8900_dvid_activity_kafka.conf"
 - pipeline.id: emdata3_9000
@@ -36,9 +36,11 @@
   path.config: "pipeline/screen_review_kafka.conf"
 - pipeline.id: merge_review
   path.config: "pipeline/merge_review_kafka.conf"
-- pipeline.id: nptest
-  path.config: "pipeline/neuprint_metrics_kafka.conf"
+- pipeline.id: neuprint_hourly_metrics
+  path.config: "pipeline/neuprint_hourly_metrics_kafka.conf"
 - pipeline.id: neuprint_daily_stats
   path.config: "pipeline/neuprint_daily_stats.conf"
 - pipeline.id: erika_added_todos1
   path.config: "pipeline/erika_added_todos1.conf"
+- pipeline.id: dvid_minute_metrics
+  path.config: "pipeline/dvid_minute_metrics_kafka.conf"
