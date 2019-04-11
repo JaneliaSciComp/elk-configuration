@@ -44,3 +44,5 @@
   path.config: "pipeline/erika_added_todos1.conf"
 - pipeline.id: dvid_minute_metrics
   path.config: "pipeline/dvid_minute_metrics_kafka.conf"
+- pipeline.id: proofreader_daily_stats
+  path.config: "pipeline/proofreader_daily_stats.conf"
